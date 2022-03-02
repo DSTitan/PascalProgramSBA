@@ -3,39 +3,39 @@ This program was created by Nathan Torrezao, Sedera Bess, Tristan Daly, Denesea 
 Created on Jan 10th 2022.
 This program was created for a cxc IT SBA.
 
-The program is ment to collect data of students from Guyana, Barbados, Trinidad and Jamaica who has paid fully
+The program is ment to collect data of students from Guyana, Barbados, Trinidad and Jamaica who has paid their fees fully
 then store the gender, country and amount paid, and display this data.
 }
 
 Program InformationTechSBA;
 
 Var { List of variables }
-    select   :   integer;
-    stopped   :   boolean;
-    gender   :   string;
-    country   :   string;
-    paymentStatus   :   string;
-    amountPaid   :   real;
-    students   :   integer;
-    male   :   integer;
-    female   :   integer;
-    maleGuy   :   integer;
-    maleJam   :   integer;
-    maleTrin   :   integer;
-    maleBar   :   integer;
-    femaleGuy   :   integer;
-    femaleJam   :   integer;
-    femaleTrin   :   integer;
-    femaleBar   :   integer;
-    payment   :   real;
-    malePaymentGuy   :   real;
-    malePaymentJam   :   real;
-    malePaymentTrin   :   real;
-    malePaymentBar   :   real;
-    femalePaymentGuy   :   real;
-    femalePaymentJam   :   real;
-    femalePaymentTrin   :   real;
-    femalePaymentBar   :   real;
+    select:integer;
+    stopped:boolean;
+    gender:string;
+    country:string;
+    paymentStatus:string;
+    amountPaid:real;
+    students:integer;
+    male:integer;
+    female:integer;
+    maleGuy:integer;
+    maleJam:integer;
+    maleTrin:integer;
+    maleBar:integer;
+    femaleGuy:integer;
+    femaleJam:integer;
+    femaleTrin:integer;
+    femaleBar:integer;
+    payment:real;
+    malePaymentGuy:real;
+    malePaymentJam:real;
+    malePaymentTrin:real;
+    malePaymentBar:real;
+    femalePaymentGuy:real;
+    femalePaymentJam:real;
+    femalePaymentTrin:real;
+    femalePaymentBar:real;
 
 Begin { Begins the process }
 
@@ -399,20 +399,20 @@ Begin { Begins the process }
                             writeln;
                             writeln('Total Payments');
                             writeln('_______________________________________________________');
-                            writeln('Total               ->      ', (malePaymentGuy + malePaymentJam + malePaymentTrin + malePaymentBar + femalePaymentGuy + femalePaymentJam + femalePaymentTrin + femalePaymentBar):   0:   2);
-                            writeln('Male                ->      ', (malePaymentGuy + malePaymentJam + malePaymentTrin + malePaymentBar):   0:   2);
-                            writeln('Female              ->      ', (femalePaymentGuy + femalePaymentJam + femalePaymentTrin + femalePaymentBar):   0:   2);
+                            writeln('Total               ->      ', (malePaymentGuy + malePaymentJam + malePaymentTrin + malePaymentBar + femalePaymentGuy + femalePaymentJam + femalePaymentTrin + femalePaymentBar):0:2);
+                            writeln('Male                ->      ', (malePaymentGuy + malePaymentJam + malePaymentTrin + malePaymentBar):0:2);
+                            writeln('Female              ->      ', (femalePaymentGuy + femalePaymentJam + femalePaymentTrin + femalePaymentBar):0:2);
                             writeln('_______________________________________________________');
-                            writeln('Guyana              ->      ', (malePaymentGuy + femalePaymentGuy):   0:   2);
+                            writeln('Guyana              ->      ', (malePaymentGuy + femalePaymentGuy):0:2);
                             writeln('   Male             ->      ', malePaymentGuy:0:2);
                             writeln('   Female           ->      ', femalePaymentGuy:0:2);
-                            writeln('Jamaica             ->      ', (malePaymentJam + femalePaymentJam):   0:   2);
+                            writeln('Jamaica             ->      ', (malePaymentJam + femalePaymentJam):0:2);
                             writeln('   Male             ->      ', malePaymentJam:0:2);
                             writeln('   Female           ->      ', femalePaymentJam:0:2);
-                            writeln('Trinidad            ->      ', (malePaymentTrin + femalePaymentTrin):   0:   2);
+                            writeln('Trinidad            ->      ', (malePaymentTrin + femalePaymentTrin):0:2);
                             writeln('   Male             ->      ', malePaymentTrin:0:2);
                             writeln('   Female           ->      ', femalePaymentTrin:0:2);
-                            writeln('Barbados            ->      ', (malePaymentBar + femalePaymentBar):   0:   2);
+                            writeln('Barbados            ->      ', (malePaymentBar + femalePaymentBar):0:2);
                             writeln('   Male             ->      ', malePaymentBar:0:2);
                             writeln('   Female           ->      ', femalePaymentBar:0:2);
                             writeln('_______________________________________________________');
