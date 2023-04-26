@@ -1,5 +1,4 @@
 {
-This program was created by Nathan Torrezao, Sedera Bess, Tristan Daly, Denesea Freeman and Angelayra Lindon.
 Created on Jan 10th 2022.
 This program was created for a cxc IT SBA.
 
